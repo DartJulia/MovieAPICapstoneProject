@@ -57,9 +57,7 @@ public class MovieController {
 	public ModelAndView searchTitle(@RequestParam("genreid") int query) {
 		// Add headers to our API request - using a header object
 		HttpHeaders headers = new HttpHeaders();
-		// requirement from mashape website
 
-		// headers.add("X-Mashape-Key", "1f4482bb6549bd63e26c3d56b8e5afd2");
 		headers.add("Accept", MediaType.APPLICATION_JSON_VALUE);
 
 		// To attach headers to our requests, we need the HttpEntity

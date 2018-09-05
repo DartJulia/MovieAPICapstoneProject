@@ -36,6 +36,7 @@
 					</tr>
 				</c:forEach>
 		</table>
+		<a href="/">Go back</a>
 		</div>
 </body>
 </html>
